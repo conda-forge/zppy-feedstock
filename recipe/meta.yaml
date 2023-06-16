@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/E3SM-Project/zppy/archive/v{{ version }}.tar.gz
-  sha256: 26c6416ba4d3e184ddc42fa7d6569f5440a6bf53
+  sha256: 5c2d5976902735da378c0322cedb8b4a6d1940f75b72e151b0e9baa952e2c0c9
   patches: 
     - patches/fix-setup-py.patch
 
