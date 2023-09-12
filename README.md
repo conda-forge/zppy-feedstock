@@ -1,11 +1,11 @@
-About zppy
-==========
+About zppy-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zppy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/E3SM-Project/zppy
 
 Package license: BSD-3-Clause AND custom
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zppy-feedstock/blob/main/LICENSE.txt)
 
 Summary: E3SM post-processing toolchain
 
