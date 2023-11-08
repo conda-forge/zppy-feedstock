@@ -32,14 +32,14 @@ Current release info
 Installing zppy
 ===============
 
-Installing `zppy` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `zppy` from the `conda-forge/label/zppy_dev` channel can be achieved by adding `conda-forge/label/zppy_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/zppy_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `zppy` can be installed with `conda`:
+Once the `conda-forge/label/zppy_dev` channel has been enabled, `zppy` can be installed with `conda`:
 
 ```
 conda install zppy
@@ -54,26 +54,26 @@ mamba install zppy
 It is possible to list all of the versions of `zppy` available on your platform with `conda`:
 
 ```
-conda search zppy --channel conda-forge
+conda search zppy --channel conda-forge/label/zppy_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search zppy --channel conda-forge
+mamba search zppy --channel conda-forge/label/zppy_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search zppy --channel conda-forge
+mamba repoquery search zppy --channel conda-forge/label/zppy_dev
 
 # List packages depending on `zppy`:
-mamba repoquery whoneeds zppy --channel conda-forge
+mamba repoquery whoneeds zppy --channel conda-forge/label/zppy_dev
 
 # List dependencies of `zppy`:
-mamba repoquery depends zppy --channel conda-forge
+mamba repoquery depends zppy --channel conda-forge/label/zppy_dev
 ```
 
 
