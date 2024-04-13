@@ -1,7 +1,7 @@
 About zppy-feedstock
 ====================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/2.4.0rc1-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zppy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/E3SM-Project/zppy
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/2.4.0rc1-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18638&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zppy-feedstock?branchName=main">
       </a>
     </td>
   </tr>
