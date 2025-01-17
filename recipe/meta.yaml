@@ -1,5 +1,5 @@
 {% set name = "zppy" %}
-{% set version = "2.5.0rc2" %}
+{% set version = "3.0.0rc1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/E3SM-Project/zppy/archive/v{{ version }}.tar.gz
-  sha256: 65837494570103dc0af7d85219ad8b8f09736b31177dd2c0ef5c63c38ff0ad67
+  sha256: 7f59f3c7a17a81fc4dffef368d1e26b21a5f70c976d0700196368e69ca8dd0e7
 
 build:
   number: 0
