@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: zppy
-  version: 3.1.0rc3
+  version: 3.2.0rc1
   python_min: "3.11"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://github.com/E3SM-Project/zppy/archive/v${{ version }}.tar.gz
-  sha256: b350bc2db8cf2fe0e6ea9ae5f7f96351eef116e1338d2948002fca01a62f9e3d
+  sha256: 329188de301fa46c3681ce10886f3c4a8c5eeabe2bd627037679a00c906db79a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
   python:
@@ -27,7 +27,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >=${{ python_min }},<3.14
+    - python >=${{ python_min }},<3.15
     - configobj >=5.0.6
     - jinja2 >=3.1.2
     - mache >=1.5.0
