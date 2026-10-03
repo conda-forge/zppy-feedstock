@@ -16,7 +16,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/zppy-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/zppy-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -38,31 +40,73 @@ conda config --add channels conda-forge/label/zppy_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/zppy_dev` channel has been enabled, `zppy` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install zppy
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install zppy
 ```
 
-It is possible to list all of the versions of `zppy` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add zppy
+# for installing globally
+pixi global install zppy
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `zppy` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search zppy --channel conda-forge/label/zppy_dev
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search zppy --channel conda-forge/label/zppy_dev
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search zppy --channel conda-forge/label/zppy_dev
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -74,6 +118,8 @@ mamba repoquery whoneeds zppy --channel conda-forge/label/zppy_dev
 # List dependencies of `zppy`:
 mamba repoquery depends zppy --channel conda-forge/label/zppy_dev
 ```
+
+</details>
 
 
 About conda-forge
