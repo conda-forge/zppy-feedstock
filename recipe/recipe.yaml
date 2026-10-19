@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/E3SM-Project/zppy/archive/v${{ version }}.tar.gz
-  sha256: 451d8259029605adc4aef87265f89b78b1cb3e6adcfdc2c1d5345389c308a025
+  sha256: 308afa3f91ad34429c802658ce5662e6b9c99d37124502abc00b6ba2e10f7dad
 
 build:
   number: 0
