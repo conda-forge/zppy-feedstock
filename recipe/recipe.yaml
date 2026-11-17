@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: zppy
-  version: 3.3.0rc2
+  version: 3.3.0rc3
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/E3SM-Project/zppy/archive/v${{ version }}.tar.gz
-  sha256: 308afa3f91ad34429c802658ce5662e6b9c99d37124502abc00b6ba2e10f7dad
+  sha256: ce24ae95dfe1c90df7ca3c9d090b75a14cb6facc2d77711e6a5338bcf01bc0f4
 
 build:
   number: 0
