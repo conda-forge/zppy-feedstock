@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: zppy
   version: "3.3.0"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -25,7 +24,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - setuptools
+    - setuptools >=64
   run:
     - python >=${{ python_min }},<3.15
     - configobj >=5.0.6
